@@ -6,3 +6,7 @@ Para ver el ejemplo en vivo navegue a :
 <a href="http://bootstrapdtp.azurewebsites.net/" target="_blank">
 	respag.net
 </a>
+##Nuevo cambio
+Se agrego un script para configurar el intervalo de minutos
+a un minuto. A pedido de Matteo :)
+
