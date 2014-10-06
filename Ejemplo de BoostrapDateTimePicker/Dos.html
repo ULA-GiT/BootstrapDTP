@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" media="screen" href="content/site.css" />
+    <link href="Content/bootstrap-datetimepicker.css" rel="stylesheet" />
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <title>Selección de fecha y hora en un mismo control</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>
+            Selección de fecha y hora en un mismo control con Bootstrap DateTimePicker
+        </h1>
+        <h4>Ejemplo con configuración mínima</h4>
+    </div>
+         <div class="container">
+             <p class="lead">Simplemente seleccionamos una fecha y nos dará la posibilidad de seleccionar una hora y al hacerlo los minutos</p>
+             <small>Logicamente se puede configurar para que utilice culturas como en los ejemplo anteriores</small>
+            <div class="row">
+                <div class='col-sm-4'>
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input type='text' class="form-control" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $(function () {
+                        $('#datetimepicker1').datetimepicker();
+                    });
+                </script>
+            </div>
+        </div>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script src="Scripts/moment.js"></script>
+    <script src="Scripts/bootstrap-datetimepicker.js"></script>
+</body>
+</html>
